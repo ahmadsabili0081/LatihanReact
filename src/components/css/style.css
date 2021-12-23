@@ -1,0 +1,328 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+:root {
+  --background-banner: linear-gradient(115deg, rgba(184, 73, 252, 0.3) 0%, rgba(253, 131, 63, 0) 40%) no-repeat;
+  --background-btn: #664EFC;
+  --background-hero: #fff;
+  --color-text: #6B6B6B;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  overflow-x: hidden;
+  position: relative;
+}
+
+.container header {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 100;
+  padding: 2% 3%;
+}
+
+.container header .container__header {
+  max-width: 1200px;
+  margin: 0px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container header .container__header .navbar {
+  width: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container header .container__header .navbar ul.list__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container header .container__header .navbar ul.list__item li.list__item__list {
+  list-style: none;
+  margin: 5px;
+  padding: 5px;
+}
+
+.container header .container__header .navbar ul.list__item li.list__item__list a {
+  text-decoration: none;
+  font-family: "DM Sans", sans-serif;
+  color: #000;
+}
+
+.container header .container__header .navbar button.btn__header {
+  display: inline-block;
+  padding: 15px 30px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-family: "DM Sans", sans-serif;
+  background-color: var(--background-btn);
+  color: #fff;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.container .banner__IndieBrew {
+  width: 100%;
+  background: var(--background-banner);
+  min-height: 100vh;
+  position: relative;
+}
+
+.container .banner__IndieBrew .container__banner {
+  padding: 130px 0px;
+  max-width: 1200px;
+  margin: 0px auto;
+}
+
+.container .banner__IndieBrew .container__banner .row__banner__IndieBrew {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .banner__IndieBrew .container__banner .row__banner__IndieBrew .box__banner__IndieBrew {
+  width: 500px;
+  height: auto;
+}
+
+.container .banner__IndieBrew .container__banner .row__banner__IndieBrew .box__banner__IndieBrew h1 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 45px;
+}
+
+.container .banner__IndieBrew .container__banner .row__banner__IndieBrew .box__banner__IndieBrew span {
+  font-family: "DM Sans", sans-serif;
+  color: var(--color-text);
+  margin: 10px 0px;
+  display: block;
+}
+
+.container .banner__IndieBrew .container__banner .row__banner__IndieBrew .box__banner__IndieBrew button.btn__banner {
+  display: block;
+  padding: 15px 30px;
+  font-family: "DM Sans", sans-serif;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 20px 0px;
+  background-color: var(--background-btn);
+}
+
+.container .banner__IndieBrew .container__banner .row__banner__IndieBrew .box__banner__IndieBrew button.btn__banner a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.container .banner__IndieBrew .container__banner .row__banner__IndieBrew .box__banner__IndieBrew p {
+  font-family: "DM Sans", sans-serif;
+  color: var(--color-text);
+}
+
+.container .banner__IndieBrew .container__banner .row__banner__IndieBrew .box__banner__IndieBrew p span.inside {
+  display: inline-block;
+  color: var(--background-btn);
+}
+
+.container .banner__IndieBrew .container__banner .row__banner__IndieBrew .box__banner__IndieBrew__img {
+  width: 600px;
+}
+
+.container .banner__IndieBrew .container__banner .row__banner__IndieBrew .box__banner__IndieBrew__img img {
+  display: block;
+  width: 100%;
+}
+
+.container .hero__IndieBrew {
+  position: relative;
+  padding: 100px 0px;
+}
+
+.container .hero__IndieBrew .container__hero__IndieBrew {
+  max-width: 1200px;
+  margin: 0px auto;
+}
+
+.container .hero__IndieBrew .container__hero__IndieBrew .row__hero__IndieBrew {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .hero__IndieBrew .container__hero__IndieBrew .row__hero__IndieBrew .box__hero__IndieBrew {
+  width: 650px;
+  height: auto;
+  font-family: "DM Sans", sans-serif;
+}
+
+.container .hero__IndieBrew .container__hero__IndieBrew .row__hero__IndieBrew .box__hero__IndieBrew h1 {
+  font-size: 40px;
+}
+
+.container .hero__IndieBrew .container__hero__IndieBrew .row__hero__IndieBrew .box__hero__IndieBrew span {
+  color: var(--color-text);
+}
+
+.container .hero__IndieBrew .container__hero__IndieBrew .row__hero__IndieBrew .box__hero__IndieBrew a {
+  display: block;
+  color: var(--background-btn);
+  font-weight: bold;
+  margin: 10px 0px;
+}
+
+.container .hero__IndieBrew .container__hero__IndieBrew .box__hero__img {
+  width: 400px;
+}
+
+.container .hero__IndieBrew .container__hero__IndieBrew .box__hero__img img {
+  display: block;
+  width: 100%;
+}
+
+.container .Hero__IndieBrew__2 {
+  padding: 20px 0px;
+  position: relative;
+}
+
+.container .Hero__IndieBrew__2 .container__Hero__IndieBrew__2 {
+  max-width: 1200px;
+  margin: 0px auto;
+  padding: 20px;
+}
+
+.container .Hero__IndieBrew__2 .container__Hero__IndieBrew__2 .row__Hero__IndieBrew__2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .Hero__IndieBrew__2 .container__Hero__IndieBrew__2 .row__Hero__IndieBrew__2 .box__Hero__IndieBrew__2__img {
+  width: 600px;
+}
+
+.container .Hero__IndieBrew__2 .container__Hero__IndieBrew__2 .row__Hero__IndieBrew__2 .box__Hero__IndieBrew__2__img img {
+  display: block;
+  width: 100%;
+}
+
+.container .Hero__IndieBrew__2 .container__Hero__IndieBrew__2 .row__Hero__IndieBrew__2 .box__Hero__IndieBrew__2__text {
+  width: 550px;
+  height: auto;
+  font-family: "DM Sans", sans-serif;
+}
+
+.container .Hero__IndieBrew__2 .container__Hero__IndieBrew__2 .row__Hero__IndieBrew__2 .box__Hero__IndieBrew__2__text h1 {
+  font-size: 40px;
+}
+
+.container .Hero__IndieBrew__2 .container__Hero__IndieBrew__2 .row__Hero__IndieBrew__2 .box__Hero__IndieBrew__2__text span {
+  margin: 10px 0px;
+  display: block;
+  color: var(--color-text);
+}
+
+.container .Hero__IndieBrew__2 .container__Hero__IndieBrew__2 .row__Hero__IndieBrew__2 .box__Hero__IndieBrew__2__text a {
+  display: block;
+  font-weight: bold;
+  color: var(--background-btn);
+}
+
+.container footer {
+  padding: 50px;
+  position: relative;
+  background-color: #FDFCF9;
+}
+
+.container footer .container__footer {
+  max-width: 1200px;
+  margin: 0px auto;
+}
+
+.container footer .container__footer .row__footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+}
+
+.container footer .container__footer .row__footer .box__footer {
+  width: 300px;
+  height: auto;
+  font-family: "DM Sans", sans-serif;
+}
+
+.container footer .container__footer .row__footer .box__footer span {
+  display: block;
+  color: var(--color-text);
+}
+
+.container footer .container__footer .row__footer .box__list__footer {
+  width: 200px;
+  font-family: "DM Sans", sans-serif;
+  text-align: center;
+}
+
+.container footer .container__footer .row__footer .box__list__footer ul li {
+  list-style-type: none;
+  margin: 10px 0px;
+}
+
+.container footer .container__footer .row__footer .box__list__footer ul li a {
+  text-decoration: none;
+  color: var(--color-text);
+}
+/*# sourceMappingURL=style.css.map */
